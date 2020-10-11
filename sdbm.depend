@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1602410422 source:c:\users\ritesh\documents\sdbmprojectcpp\sdbm\main.cpp
+	"teacher.h"
+	<typeinfo>
+
+1602408155 c:\users\ritesh\documents\sdbmprojectcpp\sdbm\teacher.h
+	<iostream>
+
