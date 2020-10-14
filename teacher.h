@@ -4,7 +4,6 @@ using namespace std;
 class Faculty{
     /*
     @params
-        id           : teacher id
         name         : teacher's name
         phoneNo      : contact no
         teachesClass : class or grade taught by the teacher
@@ -12,7 +11,6 @@ class Faculty{
         salary       : salary
     */
 
-    static int id;
     string name;
     string phoneNo;
     short teachesClass;
@@ -33,13 +31,11 @@ public:
     // getters
     string getName();
     string getPhoneNo();
-    short  getTeachesClass();
+    string  getTeachesClass();
     string getSubject();
-    float  getSalary();
-    int    getId();
+    string  getSalary();
 
     // static Func
-
     //destructor
     //~Faculty();
 };
@@ -47,14 +43,10 @@ public:
 /************ Function definitions ***********/
 
 
-// static values
-int Faculty::id = 0;
-
 /*
     Constructor and destructor
 */
 Faculty::Faculty(){
-       id++;
        name="";
        phoneNo="";
        teachesClass = 0;
@@ -114,18 +106,14 @@ string Faculty::getPhoneNo(){
     return phoneNo;
 }
 
-short Faculty::getTeachesClass(){
-    return teachesClass;
+string Faculty::getTeachesClass(){
+    return to_string(teachesClass);
 }
 
 string Faculty::getSubject(){
     return subject;
 }
 
-float Faculty::getSalary( ){
-    return salary;
-}
-
-int Faculty::getId( ){
-    return id;
+string Faculty::getSalary( ){
+    return to_string(salary*1.0f);
 }
