@@ -1,9 +1,6 @@
 # depslib dependency file v1.0
-1602690025 source:c:\users\ritesh\documents\sdbmprojectcpp\sdbm\main.cpp
-	"teacher.h"
-	<limits>
-	"sqlite3.h"
-	<bits/stdc++.h>
+1602831397 source:c:\users\ritesh\documents\sdbmprojectcpp\sdbm\main.cpp
+	"menu.h"
 
 1602501174 c:\users\ritesh\documents\sdbmprojectcpp\sdbm\teacher.h
 	<iostream>
@@ -69,4 +66,10 @@
 	<unicode/ubrk.h>
 	<unicode/utf16.h>
 	<math.h>
+
+1602831548 c:\users\ritesh\documents\sdbmprojectcpp\sdbm\menu.h
+	"teacher.h"
+	<limits>
+	"sqlite3.h"
+	<bits/stdc++.h>
 
