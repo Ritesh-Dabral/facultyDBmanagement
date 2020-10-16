@@ -1,5 +1,5 @@
 # facultyDBmanagement
-A faculty database management using C++ console and SQLite
+A faculty database management using C/C++ and SQLite
 
 What is the project? 
 This project is used to combine C++ with SQLite API to keep track of faculty data.
